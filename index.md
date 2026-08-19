@@ -4,16 +4,19 @@ title: "Home"
 ---
 
 <style>
-  /* Fundo sutil azul-gelo acinzentado */
-  body {
-    background-color: #f0f4f8 !important;
-    color: #1e293b;
+  html, body {
+    background-color: #e0f2fe !important;
+    color: #0f172a;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
 
   .site-header {
-    border-top: 5px solid #0284c7 !important;
-    background-color: #ffffff;
+    background-color: #bae6fd !important;
+    border-bottom: 1px solid #7dd3fc !important;
+  }
+
+  .site-title, .site-nav .page-link {
+    color: #0369a1 !important;
   }
 
   .main-container {
@@ -22,7 +25,6 @@ title: "Home"
     padding: 48px 20px 80px 20px;
   }
 
-  /* Cabeçalho com visual Tech */
   .hero-section {
     margin-bottom: 48px;
     border-left: 4px solid #0284c7;
@@ -44,7 +46,7 @@ title: "Home"
     font-size: 2.8rem;
     font-weight: 800;
     line-height: 1.15;
-    color: #0f172a;
+    color: #0c4a6e;
     margin: 0 0 16px 0;
     letter-spacing: -0.8px;
   }
@@ -52,26 +54,23 @@ title: "Home"
   .hero-description {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #475569;
+    color: #334155;
     max-width: 620px;
     margin: 0;
   }
-
-  /* Grade de Cards */
   .posts-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
   }
 
-  /* Card com destaque superior em gradiente azul */
   .card-post {
     position: relative;
     background: #ffffff;
     border-radius: 14px;
     padding: 28px 24px;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+    border: 1px solid #bae6fd;
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.08);
     text-decoration: none !important;
     display: flex;
     flex-direction: column;
@@ -93,18 +92,17 @@ title: "Home"
 
   .card-post:hover:not(.disabled) {
     transform: translateY(-5px);
-    box-shadow: 0 16px 30px rgba(2, 132, 199, 0.12);
-    border-color: #cbd5e1;
+    box-shadow: 0 16px 30px rgba(2, 132, 199, 0.18);
+    border-color: #7dd3fc;
   }
 
   .card-post:hover:not(.disabled)::before {
     opacity: 1;
   }
 
-  /* Badge em azul-cobalto */
   .badge {
     align-self: flex-start;
-    background: #0369a1;
+    background: #0284c7;
     color: #ffffff;
     font-size: 0.7rem;
     font-weight: 700;
@@ -113,7 +111,7 @@ title: "Home"
     border-radius: 20px;
     margin-bottom: 16px;
     text-transform: uppercase;
-    box-shadow: 0 2px 6px rgba(3, 105, 161, 0.25);
+    box-shadow: 0 2px 6px rgba(2, 132, 199, 0.3);
   }
 
   .card-title {
@@ -126,15 +124,15 @@ title: "Home"
 
   .card-text {
     font-size: 0.92rem;
-    color: #64748b;
+    color: #475569;
     line-height: 1.55;
     margin: 0;
   }
 
   /* Estilo para Cards futuros */
   .card-post.disabled {
-    background: #f8fafc;
-    border: 1px dashed #cbd5e1;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px dashed #93c5fd;
     cursor: default;
     box-shadow: none;
   }
