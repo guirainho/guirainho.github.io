@@ -110,7 +110,7 @@ title: "Home"
 <div class="main-container">
   
   <header class="hero-section">
-    <h1 class="hero-title">Registros e reflexões da disciplina</h1>
+    <h1 class="hero-title">Posts da disciplina</h1>
     <p class="hero-description">
       Ambiente dedicado a organizar meus posts semanais da disciplina de Computação Visual
     </p>
