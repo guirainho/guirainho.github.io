@@ -112,7 +112,7 @@ title: "Home"
   <header class="hero-section">
     <h1 class="hero-title">Registros e reflexões da disciplina</h1>
     <p class="hero-description">
-      Um espaço dedicado a organizar meus posts semanais, documentar meus aprendizados e acompanhar a evolução dos temas estudados em Computação Visual.
+      Ambiente dedicado a organizar meus posts semanais da disciplina de Computação Visual
     </p>
   </header>
 
