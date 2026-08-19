@@ -119,7 +119,7 @@ title: "Home"
   <section class="posts-grid">
 
     <!-- Card: Post 1 (Ativo / Com link) -->
-    <a href="{{ site.baseurl }}/2026/08/18/post-1.html" class="card-post">
+    <a href="{{ site.baseurl }}{% post_url 2026-08-18-post-1 %}">
       <span class="badge">POST 01</span>
       <h2 class="card-title">Primeiras Impressões</h2>
       <p class="card-text">
