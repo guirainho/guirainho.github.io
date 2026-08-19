@@ -127,14 +127,14 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 2 (Em breve) -->
-    <div class="card-post disabled">
+    <!-- Card: Post 2 (Ativo) -->
+    <a href="{{ site.baseurl }}{% post_url 2026-08-18-post-2 %}" class="card-post">
       <span class="badge">POST 02</span>
-      <h2 class="card-title">Conceito e Aplicações</h2>
+      <h2 class="card-title">OpenGL e Funcionamento do Olho</h2>
       <p class="card-text">
-        Uma análise guiada sobre o que é a disciplina, seus três pilares e áreas de aplicação prática.
+        Primitivas geométricas na GPU, a anatomia da retina e a ponte entre a visão biológica e digital.
       </p>
-    </div>
+    </a>
 
     <!-- Card: Post 3 (Em breve) -->
     <div class="card-post disabled">
