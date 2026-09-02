@@ -167,7 +167,7 @@ title: "Home"
 
   <section class="posts-grid">
 
-    <!-- Card: Post 1 -->
+    <!-- Card: Post 1 (Ativo) -->
     <a href="{{ site.baseurl }}{% post_url 2026-08-18-post-1 %}" class="card-post">
       <span class="badge">POST 01</span>
       <h2 class="card-title">Primeiras Impressões</h2>
@@ -176,7 +176,7 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 2 -->
+    <!-- Card: Post 2 (Ativo) -->
     <a href="{{ site.baseurl }}{% post_url 2026-08-18-post-2 %}" class="card-post">
       <span class="badge">POST 02</span>
       <h2 class="card-title">OpenGL e Funcionamento do Olho</h2>
@@ -185,12 +185,39 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 3 (Em breve) -->
-    <div class="card-post disabled">
+    <!-- Card: Post 3 (Ativo) -->
+    <a href="{{ site.baseurl }}{% post_url 2026-09-01-post-3 %}" class="card-post">
       <span class="badge">POST 03</span>
+      <h2 class="card-title">Espaços de Cores e Imagens</h2>
+      <p class="card-text">
+        Como traduzir a percepção visual em matrizes: as diferenças entre RGB, HSV e processamento em escala de cinza.
+      </p>
+    </a>
+
+    <!-- Card: Post 4 (Em breve) -->
+    <div class="card-post disabled">
+      <span class="badge">POST 04</span>
+      <h2 class="card-title">Filtros Espaciais e Convolução</h2>
+      <p class="card-text">
+        Aplicação de matrizes de convolução para suavização de ruídos, realce e detecção de bordas.
+      </p>
+    </div>
+
+    <!-- Card: Post 5 (Em breve) -->
+    <div class="card-post disabled">
+      <span class="badge">POST 05</span>
+      <h2 class="card-title">Segmentação e Binarização</h2>
+      <p class="card-text">
+        Separação de regiões de interesse através de limiarização (Otsu) e operações morfológicas.
+      </p>
+    </div>
+
+    <!-- Card: Post 6 (Em breve) -->
+    <div class="card-post disabled">
+      <span class="badge">POST 06</span>
       <h2 class="card-title">Em breve...</h2>
       <p class="card-text">
-        Espaço reservado para a publicação das próximas semanas de aula.
+        Espaço reservado para as reflexões e tópicos avançados das próximas aulas.
       </p>
     </div>
 
