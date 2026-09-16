@@ -194,14 +194,14 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 4 (Em breve) -->
-    <div class="card-post disabled">
+    <!-- Card: Post 4 (Ativo) -->
+    <a href="{{ site.baseurl }}{% post_url 2026-09-15-post-4 %}" class="card-post">
       <span class="badge">POST 04</span>
-      <h2 class="card-title">Filtros Espaciais e Convolução</h2>
+      <h2 class="card-title">História da Computação Visual</h2>
       <p class="card-text">
-        Aplicação de matrizes de convolução para suavização de ruídos, realce e detecção de bordas.
+        Das origens do Sketchpad à convergência moderna entre processamento de imagens, gráficos e visão artificial.
       </p>
-    </div>
+    </a>
 
     <!-- Card: Post 5 (Em breve) -->
     <div class="card-post disabled">
