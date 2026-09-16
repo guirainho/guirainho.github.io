@@ -197,9 +197,9 @@ title: "Home"
     <!-- Card: Post 4 (Ativo) -->
     <a href="{{ site.baseurl }}{% post_url 2026-09-15-post-4 %}" class="card-post">
       <span class="badge">POST 04</span>
-      <h2 class="card-title">História da Computação Visual</h2>
+      <h2 class="card-title">História da Área</h2>
       <p class="card-text">
-        Das origens do Sketchpad à convergência moderna entre processamento de imagens, gráficos e visão artificial.
+        Do Sketchpad dos anos 60 à convergência entre gráficos, PDI e o poder das placas de vídeo atuais.
       </p>
     </a>
 
