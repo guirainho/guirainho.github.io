@@ -203,14 +203,14 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 5 (Em breve) -->
-    <div class="card-post disabled">
+    <!-- Card: Post 5 (Ativo) -->
+    <a href="{{ site.baseurl }}{% post_url 2026-09-29-post-5 %}" class="card-post">
       <span class="badge">POST 05</span>
-      <h2 class="card-title">Segmentação e Binarização</h2>
+      <h2 class="card-title">Histogramas e Contraste</h2>
       <p class="card-text">
-        Separação de regiões de interesse através de limiarização (Otsu) e operações morfológicas.
+        Como a distribuição dos níveis de cinza revela falhas de exposição e o uso da equalização para recuperar detalhes.
       </p>
-    </div>
+    </a>
 
     <!-- Card: Post 6 (Em breve) -->
     <div class="card-post disabled">
