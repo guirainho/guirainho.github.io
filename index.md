@@ -213,12 +213,12 @@ title: "Home"
     </a>
 
     
-    <!-- Card: Post 6 -->
+    <!-- Card: Post 6 (Ativo) -->
     <a href="{{ site.baseurl }}{% post_url 2026-10-09-post-6 %}" class="card-post">
       <span class="badge">POST 06</span>
-      <h2 class="card-title">Filtros e Convolução</h2>
+      <h2 class="card-title">A Transformada de Fourier</h2>
       <p class="card-text">
-        Como arrastar máscaras sobre matrizes para borrar imagens (tirar ruído) ou encontrar o contorno dos objetos.
+        Desmontando imagens em ondas para entender e manipular frequências altas e baixas com Python.
       </p>
     </a>
 
