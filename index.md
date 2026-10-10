@@ -212,12 +212,31 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 6 (Em breve) -->
-    <div class="card-post disabled">
+    
+    <!-- Card: Post 6 -->
+    <a href="{{ site.baseurl }}{% post_url 2026-10-09-post-6 %}" class="card-post">
       <span class="badge">POST 06</span>
+      <h2 class="card-title">Filtros e Convolução</h2>
+      <p class="card-text">
+        Como arrastar máscaras sobre matrizes para borrar imagens (tirar ruído) ou encontrar o contorno dos objetos.
+      </p>
+    </a>
+
+    <!-- Card: Post 7 (Em breve) -->
+    <div class="card-post disabled">
+      <span class="badge">POST 07</span>
       <h2 class="card-title">Em breve...</h2>
       <p class="card-text">
-        Espaço reservado para as reflexões e tópicos avançados das próximas aulas.
+        Espaço reservado para as reflexões e tópicos práticos das próximas aulas.
+      </p>
+    </div>
+    
+    <!-- Card: Post 8 (Em breve) -->
+    <div class="card-post disabled">
+      <span class="badge">POST 08</span>
+      <h2 class="card-title">Em breve...</h2>
+      <p class="card-text">
+        Espaço reservado para as reflexões e tópicos práticos das próximas aulas.
       </p>
     </div>
 
