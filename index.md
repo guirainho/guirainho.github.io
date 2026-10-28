@@ -222,21 +222,21 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 7 (Em breve) -->
-    <div class="card-post disabled">
+    <!-- Card: Post 7 (Ativo) -->
+    <a href="{{ site.baseurl }}{% post_url 2026-10-27-post-7 %}" class="card-post">
       <span class="badge">POST 07</span>
-      <h2 class="card-title">Em breve...</h2>
+      <h2 class="card-title">Aliasing e Amostragem</h2>
       <p class="card-text">
-        Espaço reservado para as reflexões e tópicos práticos das próximas aulas.
+        O efeito roda de carroça, o teorema de Nyquist e por que precisamos borrar imagens antes de encolher.
       </p>
-    </div>
-    
+    </a>
+
     <!-- Card: Post 8 (Em breve) -->
     <div class="card-post disabled">
       <span class="badge">POST 08</span>
       <h2 class="card-title">Em breve...</h2>
       <p class="card-text">
-        Espaço reservado para as reflexões e tópicos práticos das próximas aulas.
+        Espaço reservado para as reflexões e tópicos das próximas aulas.
       </p>
     </div>
 
