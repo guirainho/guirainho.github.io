@@ -231,14 +231,14 @@ title: "Home"
       </p>
     </a>
 
-    <!-- Card: Post 8 (Em breve) -->
-    <div class="card-post disabled">
+    <!-- Card: Post 8 (Ativo) -->
+    <a href="{{ site.baseurl }}{% post_url 2026-11-03-post-8 %}" class="card-post">
       <span class="badge">POST 08</span>
-      <h2 class="card-title">Em breve...</h2>
+      <h2 class="card-title">Morfologia Matemática</h2>
       <p class="card-text">
-        Espaço reservado para as reflexões e tópicos das próximas aulas.
+        Usando erosão e dilatação para remover ruídos e corrigir formas em imagens binarizadas.
       </p>
-    </div>
+    </a>
 
   </section>
 </div>
