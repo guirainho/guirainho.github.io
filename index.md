@@ -234,11 +234,14 @@ title: "Home"
     <!-- Card: Post 8 (Ativo) -->
     <a href="{{ site.baseurl }}{% post_url 2026-11-03-post-8 %}" class="card-post">
       <span class="badge">POST 08</span>
-      <h2 class="card-title">Morfologia Matemática</h2>
+      <h2 class="card-title">Reflexão Final</h2>
       <p class="card-text">
-        Usando erosão e dilatação para remover ruídos e corrigir formas em imagens binarizadas.
+        Um balanço sobre o que achei da disciplina, os maiores desafios matemáticos e como minha visão sobre imagens mudou.
       </p>
     </a>
+
+  </section>
+</div>
 
   </section>
 </div>
